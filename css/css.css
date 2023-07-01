@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-block {
+    width: 100%;
+    Height: 725px;
+    background: url(../img/bg_image.png);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+}
+
+.phone {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 30px;
+}
+
+.phone-img {
+    margin-right: 20px;
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 206px;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 79px;
+    color: #FFF;
+}
+
+.main-subtitel {
+    color: #FFF;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.mail-batton {
+    margin-top: 32px;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #1E2E3D;
+font-size: 15px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.about-me-block { 
+    width: 100%;
+    /* height: 725px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-about-me {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-title-aboutme { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+    font-size: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-aboutme { 
+    color: #000;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.person-info-block { 
+    max-width: 1380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+
+.person-info-area { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 97px;
+    gap: 40px;
+}
+
+.underline-info-block { 
+    width: 110px;
+    height: 3px;
+    margin-top: 15px;
+}
+
+.underline-black { 
+    background-color: black;
+}
+
+
+.skills-block {
+width: 100%;
+height: 725px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 72px;
+background-color: #1E2E3D;
+}
+
+.section-skills {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-title-text { 
+    color: #FFF;
+    font-size: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 36px;
+}
+
+.underline-skills-block { 
+    width: 110px;
+    height: 3px;
+    margin-top: 15px;
+}
+
+.underline-white { 
+    background-color: white;
+}
+
+.img-section { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    max-width: 953px;
+    justify-content: space-between;
+    margin: 116px auto 0; 
+}
+
+.img-skills { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.text-skills { 
+    color: #FFF;
+    font-size: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.footer-block { 
+    width: 100%;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img { 
+    margin-top: 10px;
+}
+
+
+.footer-title { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.logo-footer { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    gap: 20px; 
+}
+
+@media screen and (max-width:1420px) { 
+   .about-me-block { 
+    padding-left: 40px;
+    padding-right: 40px;
+   } 
+}
+    
+@media screen and (max-width:990px) {
+    .person-info-block { 
+        align-items: flex-start;
+    }
+    
+    .person-info-img { 
+        max-width: 250px;
+    }
+   
+    .person-info-area { 
+        margin-left: 42px;
+    
+    }
+
+    .section-skills { 
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
